@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "author" content = "Keene">
+        <title>Keene's Hack-a-thing Tip Calculator</title>
+    </head>
+    <h1>Keene's Hack-a-thing Tip Calculator</h1>
+    <body>
+        <br>
+        <b>Please Enter Bill Amount</b>
+        <br>
+        <script src="tipcalc.js" type="text/javascript"></script>
+        <form id="calcForm" onsubmit="return getAmt()">
+            <input type="text" id="billAmt"> <br>
+            <b>How Many People Are Splitting the Bill?</b><br>
+            <input type="text" id="people"><br>
+            <b>What Percent Would You Like to Tip?</b><br>
+            <input type="text" id="tip"><br>
+            <input type="submit" value = "Enter" id = "submit"><br>
+        </form>
+        <b id='out'></b>
+    </body>
+</html>
